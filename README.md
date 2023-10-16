@@ -35,6 +35,8 @@
   <img src="/art/screenshot_light.png#gh-light-mode-only" height=50%>
 </p>
 
+**We are looking for Termux Android application maintainers.**
+
 ***
 <a href="https://hosted.weblate.org/engage/termux-monet/">
 <img src="https://hosted.weblate.org/widgets/termux-monet/-/multi-blue.svg" alt="Translation status" align="center"/>

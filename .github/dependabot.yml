@@ -6,6 +6,7 @@
 version: 2
 enable-beta-ecosystems: true
 updates:
+<<<<<<< HEAD
   - package-ecosystem: "gradle" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
@@ -23,3 +24,12 @@ updates:
     schedule:
       interval: "daily"
     rebase-strategy: "disabled"
+=======
+- package-ecosystem: github-actions
+  directory: /
+  schedule:
+    interval: daily
+  commit-message:
+    # Prefix all commit messages with "Changed: "
+    prefix: "Changed"
+>>>>>>> upstream/master
