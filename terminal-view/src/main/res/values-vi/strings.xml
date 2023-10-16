@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="paste_text">Dán</string>
+    <string name="copy_text">Sao chép</string>
+</resources>

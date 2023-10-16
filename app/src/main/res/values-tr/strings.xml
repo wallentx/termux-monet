@@ -11,7 +11,7 @@
 ]>
 <resources>
     <string name="shared_user_label">&TERMUX_APP_NAME; kullanıcı</string>
-    <string name="bootstrap_error_abort">İptal etmek</string>
+    <string name="bootstrap_error_abort">Durdur</string>
     <string name="title_max_terminals_reached">Maksimum terminallere ulaşıldı</string>
     <string name="title_create_named_session">Yeni isimlendirilen oturum</string>
     <string name="action_create_named_session_confirm">Oluştur</string>
@@ -73,7 +73,7 @@
     <string name="msg_enabling_terminal_toolbar">Terminal Araç Çubuğunu Etkinleştiriliyor</string>
     <string name="title_select_url_none_found">Terminalde URL bulunamadı.</string>
     <string name="msg_disabling_terminal_toolbar">Terminal Araç Çubuğunu Devre dışı bırakılıyor</string>
-    <string name="extra_keys_command_hint">Komut ekle...</string>
+    <string name="extra_keys_command_hint">Komut ekle…</string>
     <string name="msg_select_url_copied_to_clipboard">URL panoya kopyalandı</string>
     <string name="title_select_url_dialog">Kopyalamak için URL\'ye tıklayın veya açmak için uzun basın</string>
     <string name="title_share_transcript">Terminal transkripti</string>
@@ -87,9 +87,9 @@
     <string name="action_styling_install">Yükle</string>
     <string name="action_set_background_image">Arka plan resmini ayarla</string>
     <string name="termux_terminal_view_key_logging_enabled_on">Logcat günlükleri, terminal görünüm anahtarları için girişlere sahip olacaktır. Bunlar çok ayrıntılıdır ve normal şartlar altında devre dışı bırakılmalıdır, aksi takdirde performans sorunlarına neden olabilir.</string>
-    <string name="msg_add_termux_debug_info">Raporlanacak hata ayıklama bilgisini; &amp;TERMUX_APP_NAME \'e eklensin mi\?</string>
+    <string name="msg_add_termux_debug_info">Raporlanacak hata ayıklama bilgisini; &TERMUX_APP_NAME; \'e eklensin mi\?</string>
     <string name="error_termux_service_invalid_execution_command_runner">TermuxService için geçersiz yürütme komutu çalıştırıcısı: `%1$s`</string>
-    <string name="error_display_over_other_apps_permission_not_granted_to_start_terminal">&TERMUX_APP_NAME; arka planda oturum başlatmak için \"Diğer uygulamaların önüne geçme\" izninin aktif olması gerekir. Android -&gt;=10. Ayarlar -&gt; Uygulamalar -&gt; &TERMUX_APP_NAME; -&gt; Gelişmiş</string>
+    <string name="error_display_over_other_apps_permission_not_granted_to_start_terminal">&TERMUX_APP_NAME; arka planda oturum başlatmak için \"Diğer uygulamaların önüne geçme\" izninin aktif olması gerekir. Android -&gt;=10. Ayarlar -&gt; Uygulamalar -&gt; &TERMUX_APP_NAME; -&gt; Gelişmiş \' ten izin verin</string>
     <string name="error_termux_service_unsupported_execution_command_runner">TermuxService\'e desteklenmeyen yürütme komutu çalıştırıcısı: `%1$s`</string>
     <string name="action_file_received_open_directory">Dizini aç</string>
     <string name="error_run_command_service_mandatory_extra_missing">RunCommandService için zorunlu ekstra eksik: \"%1$s\"</string>
@@ -120,7 +120,7 @@
     <string name="termux_background_image_enabled_title">Arkaplan resmini görüntüle</string>
     <string name="termux_float_preferences_summary">&amp;TERMUX_FLOAT_APP_NAME için tercihler; uygulama</string>
     <string name="termux_background_image_enabled_off">Arka plan resmi devre dışı bırakılacak. Etkinleştirmek için uygun dikey ve yatay dosyaların bulunduğundan emin olun. Yeni bir arka plan ayarlamak istiyorsanız, Terminal\'e uzun tıklayarak bağlam menüsünden ayarlayın. (Varsayılan)</string>
-    <string name="donate_preference_title">Bağış Yapmak</string>
+    <string name="donate_preference_title">Bağış Yap</string>
     <string name="termux_tasker_preferences_summary">&amp;TERMUX_TASKER_APP_NAME için tercihler; uygulama</string>
     <string name="termux_widget_preferences_summary">&amp;TERMUX_WIDGET_APP_NAME için tercihler;uygulama</string>
     <string name="about_preference_title">Hakkında</string>

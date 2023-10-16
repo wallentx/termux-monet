@@ -42,7 +42,7 @@
     <string name="msg_enabling_terminal_toolbar">Habilitando la barra de herramientas</string>
     <string name="msg_disabling_terminal_toolbar">Desactivando la barra de herramientas</string>
     <!-- Terminal Extra Keys -->
-    <string name="extra_keys_command_hint">Insertar comando...</string>
+    <string name="extra_keys_command_hint">Introducir el comando…</string>
     <!-- Terminal Popup -->
     <string name="action_select_url">Seleccionar URL</string>
     <string name="title_select_url_dialog">Hacer clic en URL para copiar o presionar prolongadamente para abrir</string>
@@ -177,7 +177,7 @@
     <string name="about_preference_title">Acerca de</string>
     <!-- Donate Preference -->
     <string name="donate_preference_title">Donar</string>
-    <string name="error_background_image_loading_failed">No se puede cargar la imagen de fondo. Configuración del color de fondo.</string>
+    <string name="error_background_image_loading_failed">No se ha podido cargar la imagen de fondo. Estableciendo el color del fondo.</string>
     <string name="title_restore_background_image">Imagen de fondo detectada. ¿Quieres restaurarla\?</string>
     <string name="error_background_image_loading_from_gallery_failed">No se ha podido cargar la imagen. Prueba con otra imagen.</string>
 </resources>

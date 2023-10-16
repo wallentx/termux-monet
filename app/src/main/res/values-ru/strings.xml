@@ -74,7 +74,7 @@
     <string name="bootstrap_error_abort">Прервать</string>
     <string name="bootstrap_error_try_again">Попробуйте еще раз</string>
     <string name="msg_disabling_terminal_toolbar">Отключение панели инструментов терминала</string>
-    <string name="extra_keys_command_hint">Вставить команду...</string>
+    <string name="extra_keys_command_hint">Вставить команду…</string>
     <string name="action_select_url">Выберите URL</string>
     <string name="title_select_url_dialog">Нажмите URL, чтобы скопировать или нажмите и удерживайте, чтобы открыть</string>
     <string name="title_select_url_none_found">URL-адрес не найден в терминале.</string>

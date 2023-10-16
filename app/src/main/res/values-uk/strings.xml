@@ -21,7 +21,7 @@
     <string name="msg_max_terminals_reached">Закрийте існуючі, перш ніж створювати новий.</string>
     <string name="action_rename_session_confirm">Назвати</string>
     <string name="msg_disabling_terminal_toolbar">Вимкнення панелі інструментів терміналу</string>
-    <string name="extra_keys_command_hint">Вставити команду...</string>
+    <string name="extra_keys_command_hint">Вставити команду…</string>
     <string name="action_share_transcript">Поділитися транскриптом</string>
     <string name="title_share_transcript">Транскрипт терміналу</string>
     <string name="title_confirm_kill_process">Дійсно завершити цей сеанс\?</string>

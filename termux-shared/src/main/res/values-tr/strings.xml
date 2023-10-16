@@ -13,12 +13,12 @@
 <resources>
     <string name="error_exception_received_while_executing_app_shell_command">\"%1$s\" uygulama kabuğu komutu yürütülürken istisna alındı.
 \nİstisna: %2$s</string>
-    <string name="msg_directory_absolute_path">%1$s Dizin Mutlak Yolu: \"%2$s\"</string>
+    <string name="msg_directory_absolute_path">%1$s Dizinin Mutlak Yolu: \"%2$s\"</string>
     <string name="error_get_package_context_failed_title">Paket İçeriği Alınamadı</string>
     <string name="error_enable_component_failed">%1$s/%2$s bileşeni etkinleştirilemedi</string>
     <string name="message_sudo_please_grant_permissions">Lütfen istenen izinleri verin</string>
     <string name="title_report_text">Metni bildir</string>
-    <string name="title_share_with">İle paylaş</string>
+    <string name="title_share_with">Şununla paylaş</string>
     <string name="title_open_url_with">URL\'yi Şununla Aç</string>
     <string name="msg_storage_permission_not_granted">Depolama izni verilmedi.</string>
     <string name="msg_file_saved_successfully">%1$s dosyası başarıyla \"%2$s\" konumuna kaydedildi</string>
@@ -26,7 +26,7 @@
     <string name="action_yes">Evet</string>
     <string name="action_no">Hayır</string>
     <string name="action_cancel">İptal et</string>
-    <string name="msg_storage_permission_granted_on_request">Kullanıcı tarafından istek üzerine verilen depolama izni</string>
+    <string name="msg_storage_permission_granted_on_request">Depolama izni, kullanıcının isteği tarafından izin verildi</string>
     <string name="action_enable_launcher_icon">Başlatıcı Simgesini Etkinleştir</string>
     <string name="msg_enabling_launcher_icon">%1$s uygulama başlatıcı simgesi etkinleştiriliyor</string>
     <string name="setting_launcher_icon_title">Başlatıcı Simgesi Etkinleştirildi</string>
@@ -48,7 +48,7 @@
     <string name="error_attempted_to_ask_for_permissions_not_requested">Uygulama bildiriminde talep edilmemiş izinler istenmeye çalışıldı: %1$s</string>
     <string name="error_has_not_requested_legacy_external_storage">\"%1$s\" paketi, targetSdkVersion %2$d\'yi hedefliyor ve android sdk %3$d üzerinde çalışıyor ancak requestLegacyExternalStorage\'ı uygulama bildiriminde true olarak ayarlamadı</string>
     <string name="error_executable_unset">Yürütülebilir dosya, kabuk komutu için \"%1$s\" ayarlanmadı</string>
-    <string name="msg_requires_dump_and_package_usage_stats_permissions">DUMP` ve `PACKAGE_USAGE_STATS` izni gerektirir</string>
+    <string name="msg_requires_dump_and_package_usage_stats_permissions">`DUMP` ve `PACKAGE_USAGE_STATS` izni gerektirir</string>
     <string name="error_display_over_other_apps_permission_not_granted">%1$s, Android &gt;= 10\'da etkinlikleri ve hizmetleri arka planda başlatmak için \"Diğer uygulamaların üzerinde görüntüle\" izni gerektirir. Bunu Android Ayarları -&gt; Uygulamalar -&gt; %1$s -&gt; Gelişmiş -&gt; Diğer uygulamaların üzerinden çiz yoluyla verir. İzin adı, \"Arka planda çalışırken açılır pencereleri görüntüle\" olarak adlandırılan Xiaomi gibi farklı cihazlarda farklı olabilir, cihaza özel sorunlar için https://dontkillmyapp.com adresini kontrol edin.</string>
     <string name="error_allow_external_apps_ungranted">%1$s, \"%2$s\" dosyasında \"allow-external-apps\" özelliğinin \"true\" olarak ayarlanmasını gerektiriyor.</string>
     <string name="msg_report_truncated">**Rapor Kesildi**
@@ -63,20 +63,20 @@
     <string name="error_failed_to_execute_termux_session_command">\"%1$s\" &amp;TERMUX_APP_NAME çalıştırılamadı; oturum komutu</string>
     <string name="error_exception_received_while_executing_termux_session_command">\"%1$s\" &amp;TERMUX_APP_NAME yürütülürken istisna alındı; oturum komutu
 \nİstisna: %2$s</string>
-    <string name="msg_report_issue">" Bu sorunu bildirmek istiyorsanız, seçenekler menüsünden metnini kopyalayın (sağ üstte 3 nokta) ve aşağıdaki bağlantılardan birine bir sorun gönderin.
+    <string name="msg_report_issue">Bu sorunu bildirmek istiyorsanız, seçenekler menüsünden metnini kopyalayın (sağ üstte 3 nokta) ve aşağıdaki bağlantılardan birine bir sorun gönderin.
 \n
 \nBir &amp;TERMUX_APP_NAME yayınlıyorsanız; uygulama kilitlenme raporu, ardından lütfen çökmeye neden olan ne yaptığınız ve mümkünse bunu nasıl yeniden oluşturacağınızla ilgili ayrıntıları sağlayın.
 \n
 \nGitHub\'da bir sorun yayınlıyorsanız, sorunu raporun ait olduğu depoda yayınlayın. Açılan sorunlar veya kopyalanan metin veya bu raporun bir dosyası yerine **(kısmi) ekran görüntüleri** ile gönderilen e-postalar **muhtemelen otomatik olarak kapatılacak/silinecektir**. İsteğe bağlı olarak, özel olduğunu düşündüğünüz veya paylaşmak istemediğiniz ya da sorunla ilgili olmayan cihaza özgü bilgileri kaldırabilirsiniz.
 \n
-\nBilgisayar korsanlığıyla ilgili herhangi bir araç/komut dosyası için destek sağlamıyoruz. Onlar hakkında e-posta, GitHub veya diğer resmi &amp;TERMUX_APP_NAME; topluluk forumları **muhtemelen otomatik olarak kapatılacak/silinecek** ve hatta **geçici veya kalıcı** yasakla sonuçlanabilir. Ayrıntılar için %1$s/wiki/Hacking\'e bakın."</string>
+\nBilgisayar korsanlığıyla ilgili herhangi bir araç/komut dosyası için destek sağlamıyoruz. Onlar hakkında e-posta, GitHub veya diğer resmi &amp;TERMUX_APP_NAME; topluluk forumları **muhtemelen otomatik olarak kapatılacak/silinecek** ve hatta **geçici veya kalıcı** yasakla sonuçlanabilir. Ayrıntılar için %1$s/wiki/Hacking\'e bakın.</string>
     <string name="msg_termux_app_required_by_app">&amp;TERMUX_APP_NAME; %1$s uygulaması &amp;TERMUX_APP_NAME\'i çalıştırmak için gereklidir; komutlar.</string>
     <string name="action_disable_launcher_icon">Başlatıcı Simgesini Devre Dışı Bırak</string>
     <string name="action_share">Paylaş</string>
     <string name="error_termux_prefix_dir_path_not_accessible">&TERMUX_APP_NAME; uygulama $PREFIX dizinine %1$s uygulaması tarafından erişilemiyor. Bunun nedeni, &TERMUX_APP_NAME; uygulamasını yüklememiş veya kurmamış olmanız olabilir; uygulama veya &TERMUX_APP_NAME; her iki uygulamayı da farklı kaynaklardan yüklemeyi başardığınız için, hem uygulamanın hem de %1$s uygulamasının farklı APK imzaları var. Bunun nedeni &TERMUX_APP_NAME; $PREFIX dizini \"&TERMUX_PREFIX_DIR_PATH;\" yok veya okuma, yazma ve çalıştırma izinlerine sahip değil.</string>
     <string name="action_copy">Kopyala</string>
     <string name="action_save_to_file">Dosyayı kaydet</string>
-    <string name="msg_storage_permission_not_granted_on_request">İstek üzerine kullanıcı tarafından verilmeyen depolama izni</string>
+    <string name="msg_storage_permission_not_granted_on_request">Depolama izni, kullanıcı isteği tarafından izin verilmedi</string>
     <string name="msg_disabling_launcher_icon">%1$s uygulama başlatıcı simgesi devre dışı bırakılıyor</string>
     <string name="setting_launcher_icon_enabled_off">Başlatıcı Simgesi devre dışı bırakılacak.</string>
     <string name="error_failed_to_execute_app_shell_command">\"%1$s\" uygulama kabuğu komutu çalıştırılamadı</string>
